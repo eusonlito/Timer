@@ -1,0 +1,32 @@
+{
+    "name": "ans/timer",
+    "type": "library",
+    "description": "A Simple Timer mark script",
+    "version": "1.0",
+    "keywords": ["php", "timer"],
+    "homepage": "https://github.com/eusonlito/Timer/",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "A Navalla Suíza",
+            "email": "idc@anavallasuiza.com",
+            "homepage": "http://anavallasuiza.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "idc@anavallasuiza.com",
+        "issues": "https://github.com/eusonlito/Timer/issues"
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "autoload": {
+        "psr-0": {
+            "ANS\\Timer": "libs"
+        }
+    }
+}
